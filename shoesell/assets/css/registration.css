@@ -1,0 +1,18 @@
+@font-face {
+    font-family: thapafont;
+    src: url('../fonts/jfont.ttf');
+     }
+    *{
+        font-family: thapafont;
+    }
+    .right{
+        font-family: thapafont;
+
+    }
+    .footer{
+        background-color:rgb(39, 39, 230);
+        color: white;
+    }
+    .lists{
+        color: darkcyan;
+    }
