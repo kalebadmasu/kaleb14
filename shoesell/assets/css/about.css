@@ -1,19 +1,45 @@
 /* Design by http://www.dreamtemplate.com */
+@font-face {
+    font-family: thapafont;
+    src: url('../fonts/jfont.ttf');
+     }
+    *{
+        font-family: thapafont;
+    }
+    @font-face {
+    font-family: thapafont;
+    src: url('../fonts/jfont.ttf');
+     }
+     *{
+        font-family: thapafont;
+    }
+
+    
+    .right{
+        font-family: thapafont;
+
+    }
+    .footer{
+        background-color:rgb(39, 39, 230);
+        color: white;
+    }
+    .lists{
+        color: darkcyan;
+    }
 @charset "utf-8";
+
 body {
 	margin:0;
 	padding:0;
 	width:100%;
-	color:#929292;
-	font:normal 12px/1.5em "Liberation sans", Arial, Helvetica, sans-serif;
+	
+	
 }
 html, .main {
 	padding:0;
 	margin:0;
 }
-.main {
-	background:#dfdfdf url(../images/main_bg.gif) repeat-x left top;
-}
+
 .clr {
 	clear:both;
 	padding:0;
@@ -22,17 +48,7 @@ html, .main {
 	font-size:0;
 	line-height:0;
 }
-h2 {
-	margin:8px 0;
-	padding:8px 0;
-	font-size:24px;
-	font-weight:bold;
-	color:#3f3f3f;
-}
-p {
-	margin:8px 0;
-	padding:0 0 8px 0;
-}
+
 a {
 	color:#1e5381;
 	text-decoration:underline;
@@ -41,21 +57,14 @@ a {
 	margin:0;
 	padding:0;
 }
-h1, h2, .menu_nav ul li a {
-	font-family:Georgia, "Times New Roman", Times, serif;
-}
-.header {
-}
+
+
 .header_resize {
 	margin:0 auto;
 	padding:0;
 	width:960px;
 }
-.logo {
-	padding:0;
-	width:auto;
-	height:138px;
-}
+
 h1 {
 	margin:0;
 	padding:36px 0 0;
@@ -65,20 +74,8 @@ h1 {
 	text-transform:none;
 	text-align:center;
 }
-h1 a, h1 a:hover {
-	color:#3f3f3f;
-	text-decoration:none;
-}
-h1 span {
-}
-h1 small {
-	display:block;
-	font-size:18px;
-	line-height:1.2em;
-	letter-spacing:normal;
-	text-transform:none;
-	color:#8a98a5;
-}
+
+
 .slider {
 	padding:4px 0 8px;
 }
@@ -97,49 +94,7 @@ h1 small {
 	line-height:1.5em;
 	font-weight:bold;
 }
-.rss a {
-	color:#fff;
-	text-decoration:none;
-}
-.rss a:hover {
-	text-decoration:underline;
-}
-.rss img {
-	margin:-3px 0 -3px 6px;
-	border:none;
-}
-.menu_nav {
-	margin:0 auto;
-	padding:0 130px;
-	height:60px;
-}
-.menu_nav ul {
-	list-style:none;
-	padding:0;
-	height:60px;
-	float:left;
-}
-.menu_nav ul li {
-	margin:0;
-	padding:0;
-	float:left;
-}
-.menu_nav ul li a {
-	display:block;
-	margin:0;
-	padding:19px 0;
-	width:140px;
-	font-size:18px;
-	line-height:22px;
-	font-weight:normal;
-	color:#fff;
-	text-decoration:none;
-	text-align:center;
-}
-.menu_nav ul li.active a, .menu_nav ul li a:hover {
-	text-decoration:none;
-	color:#ffae00;
-}
+
 .content {
 	padding:0;
 }
